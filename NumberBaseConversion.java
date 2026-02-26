@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class NumberBaseConversion {
     //This system helps users to input a number in decimal
-    //input the base you want, convert it to binary, quaternary or octal number:
+    //input the base you want, convert it to binary, quaternary or octal number...etc
     //此算法将一个输入的十进制数转化为十以内任意进制的数字
     Scanner sc=new Scanner(System.in);
 
@@ -13,7 +13,7 @@ public class NumberBaseConversion {
         int base=sc.nextInt();
 
         //convert the decimal number into new base system, with the division and reminder
-        //use recursive method to accomplish:
+        //use an iterative method to accomplish:
 
         if (base<=1){
             System.out.println("Invalid base number.");
@@ -39,5 +39,6 @@ public class NumberBaseConversion {
         int ans=nbc.convert();
         System.out.println(ans);
     }
+
 
 }
