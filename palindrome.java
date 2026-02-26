@@ -1,0 +1,14 @@
+//回文数，如121，12321
+
+public class palindrome {
+    public boolean isPalindrome(int x) {
+        if (x<0) return false;
+        if(x%10==0&&x!=0) return false;  //不是0，但是10的倍数
+        int reversed=0;
+        while(x>reversed) {
+            reversed=reversed*10+x%10;
+            x/=10;
+        }
+        return x==reversed||x==reversed/10;
+    }
+}
