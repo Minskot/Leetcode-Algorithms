@@ -1,4 +1,5 @@
-# Leetcode-Algorithms
-#我做leetcode算法的代码汇总
-#Not official projects
-#非正式项目
+# Leetcode-Algorithms (Written in Java）
+This is the repository noting my exercising steps in leetcode algorithms.
+All files were written in Java.
+Hope I could finish most of non-hard problems by a certain significant timepin.
+Good Luck! Mickrom Minskot!
