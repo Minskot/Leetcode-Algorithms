@@ -1,0 +1,11 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>AlgorithmsTrials</artifactId>
+  <version>1.0</version>
+  <build>
+    <!-- 源码不在 Maven 默认的 src/main/java 下，显式声明 src 为源码根目录
+         （与 IntelliJ 的 AlgorithmsTrials.iml 中 content/sourceFolder=src 保持一致） -->
+    <sourceDirectory>src</sourceDirectory>
+  </build>
+</project>
